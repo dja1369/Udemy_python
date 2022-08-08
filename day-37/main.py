@@ -22,7 +22,7 @@ user_params = {
     "notMinor" : "yes"
 }
 
-resp = requests.post(url = pixela_endpoint, json=user_params)
+resp = requests.post(url = pixela_endpoint, json = user_params)
 
 # print(resp.status_code)
 # print(resp.text)
